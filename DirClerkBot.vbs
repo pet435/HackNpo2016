@@ -1,5 +1,5 @@
 	'Константы или значения "по умолчанию"
-	SYSCODE = "TEHKASNPO"			'Код системы ТЕХКАС
+	SYSCODE = "TEHXXXNPO"			'Код системы ТЕХКАС
 	WorkRefName = "РАБ"
 	RefName = "ПДД"				'Имя справочника "Обращения"
   
@@ -189,9 +189,9 @@
 
 		
 	'ОТЛАДКА
-	'PhoneNumber = +79501609505
+	'PhoneNumber = +795016XXXX5
 	'res = getUserLoginByPhone(PhoneNumber)
-	'res = getContacts("Питомцева")
+	'res = getContacts("ПитXXXXа")
     'msgbox(res)
 	'UserLoging = getUserLoginByPhone(PhoneNumber)
 	'sendTask "тема", UserLoging, 1, "01.01.2017", "текст"

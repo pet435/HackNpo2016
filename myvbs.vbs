@@ -1,6 +1,6 @@
 
 	'Константы или значения "по умолчанию"
-	SYSCODE = "TEHKASNPO"			'Код системы ТЕХКАС
+	SYSCODE = "TEHXXXXPO"			'Код системы ТЕХКАС
 	WorkRefName = "РАБ"
   
 	'Создать подключение
@@ -31,9 +31,9 @@
 		WorkRef.Close
 	end function
 	
-	'PhoneNumber = +79501609505
-	PhoneNumber = "+79124427443"
-	'PhoneNumber = "+7-912-442-7443"
+	'PhoneNumber = +7950XXXX505
+	PhoneNumber = "+7912XXXX443"
+	'PhoneNumber = "+7-912-XXX-7X43"
 	
 	
 	res = getUserLoginByPhone(PhoneNumber)
