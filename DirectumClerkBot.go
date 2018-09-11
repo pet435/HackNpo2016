@@ -74,7 +74,7 @@ type Contact struct {
 }
 
 func main()  {
-	bot, _ = tgbotapi.NewBotAPI("253781324:AAFT9STBzloBTGuUF67kmodJGwL988j3CH4")
+	bot, _ = tgbotapi.NewBotAPI("253781324:XXXXXXXXXXXTGuUF67kmodJGwL988j3CH4")
 
 	//config := readConfig()
 
